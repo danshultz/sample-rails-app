@@ -13,3 +13,11 @@ test:
   pool: 5
   username: rbates
   password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: blog
+  pool: 5
+  username: blog
+  password: secretepassword
